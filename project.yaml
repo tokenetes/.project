@@ -1,0 +1,70 @@
+# .project metadata for Tokenetes
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maturity_log entry with TOC issue URL
+# TODO: Set project_lead GitHub handle
+# TODO: Set cncf_slack_channel
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "tokenetes"
+name: "Tokenetes"
+description: "Tokenetes implements Transaction Tokens (TraTs) for microservices call chains.  It's a Kubernetes-native framework providing immutable identity and context in  service-to-service communication to prevent attacks like software supply chain  or privileged user compromise."
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel
+# cncf_slack_channel: "#tokenetes"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories:
+  - "https://github.com/tokenetes/tokenetes"
+
+website: "https://tokenetes.io/"
+
+artwork: "https://landscape.cncf.io/logos/tokenetes.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/tokenetes/tokenetes/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "tokenetes/tokenetes"
+
+
+security:
+  policy:
+    path: "https://github.com/tokenetes/tokenetes/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/tokenetes/tokenetes/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/tokenetes/.github/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/tokenetes/tokenetes/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/tokenetes/tokenetes/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+

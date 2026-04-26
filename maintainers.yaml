@@ -1,0 +1,12 @@
+# Maintainer roster for Tokenetes
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "tokenetes"
+    org: "tokenetes"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - goosetav
+          - tulshi

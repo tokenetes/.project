@@ -28,7 +28,7 @@ repositories:
 
 website: "https://tokenetes.io/"
 
-artwork: "https://landscape.cncf.io/logos/tokenetes.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/tokenetes"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
